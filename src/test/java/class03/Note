@@ -1,0 +1,39 @@
+************Test NG**************
+
+1.  @BeforeClass    ->  execute just once before the class starts to execute
+    @AfterClass    ->  execute just once after the whole class has executed
+
+2.  Data Provider
+    if we have a diverse data set then we can use data provider to feed the test data to our test case
+
+    @dataProvider(name="credentials")
+    we declare the data in a form of 2Darray
+
+    if i want to use the data provider in a test case
+    @Test (dataProvider ='credentials')
+    public void login(){
+
+    }
+
+    in order to use to use data from 2D array i must give in the parameters,
+    the parameters are going to be equal to the number of columns, willthe follow a sequence.
+    How many times the function @Test is going to execute ???? -> equal to the number of rows we have in our Data provider
+
+    ******** Listeners****
+
+1.  Why do we need listeners?
+    because we have no way of performing an action if our test case pass, fails, igores etc
+
+2.  How do we use listners>
+    1. Create a class that implements ITestListener
+    @Override the functions available to us in ItestListner
+
+    ontestSucces()
+    OnTestFailure()
+
+    2. Link in to the class/package through the xml file.
+    <Suite>
+        <Listeners>
+                <Listeners name="what ever class you have implemented ur listeners in"/>
+        <Listeners/>
+

@@ -1,0 +1,55 @@
+*******************TestNG********************
+
+1. What is xml?
+    xml is file format
+
+2. How to create a maven project?
+
+    file -> new -> project
+    new project
+
+3. POM.XML?
+    it is an XML file
+
+    we can add our dependencies here for the project
+
+4. In POM.xml how do i add dependencies?
+
+    <dependencies>
+        <dependency>
+            <groupID>Selenium.org</groupID>
+            <artifactID> selenium-java </artifactID>
+            <version>3.14.2</version>
+        </dependency>
+
+
+
+5. What are the annotations?
+
+    a.  @Test   ->  all the test cases are written in this anotation
+    b.  @BeforeMethod   ->  this runs before every @Test annotation (pre-condition)
+    c.  @AfterMethod    ->  this will run after each @Test annotation (post-condition)
+
+6. What is the purpose of enable disable?
+    @Test(enabled=false)    -> it will not run this test case -> we might use this if we want to not runa test
+
+7. Depends on what is the purpose?
+    @Test(dependsOnMethods = {"login"}) ->  this test case depends on login and will be only executed if login
+
+8. Priority?
+    By default the priority is 0 --> highest order
+
+    if two cases are there with 0 priority --> aphabetically ascending will be followed
+
+    @Test(priority =3)
+    ABC
+    @Test(priority =1)
+    DEF
+    @Test(priority =2)
+    GHI
+
+    what will be the execution order of these test cases
+
+    DEF
+    GHI
+    ABC

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfc57847-890d-4d91-8548-7191931ea0c8" name="Changes" comment="1st TestNG commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultipleTestTag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beforeClass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classWiseExecutionExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listenerXML2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methodWiseExecutionExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packagewiseExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Annotations/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Annotations/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Annotations/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/AnnotationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/AnnotationsTestNg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/AnotherDataProviderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/DataProviderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/DataProviderDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/DependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/EnableDisableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/HardAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/PriorityExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/SoftAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/review01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/review01_Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/TestNG note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/dependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/enableDisable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testNGAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class01/testNGExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/Assertion note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/ExamplesAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/HardAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class02/SoftAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/dataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class03/listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04/implemetnationOfListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/class04/loginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I5f4pfL0bYiz6cVICo0yZ2PKYz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Review" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DataProviderDemo2">
+    <configuration name="C:/Users/hanjo/IdeaProjects/TestNG_Basic/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Basic" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Review" />
+      <option name="MAIN_CLASS_NAME" value="Review.DataProviderDemo2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.dataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class03" />
+      <option name="MAIN_CLASS_NAME" value="class03.dataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="class04" />
+      <option name="MAIN_CLASS_NAME" value="class04.loginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DataProviderDemo2" />
+        <item itemvalue="TestNG.C:/Users/hanjo/IdeaProjects/TestNG_Basic/testng.xml" />
+        <item itemvalue="TestNG.loginTest" />
+        <item itemvalue="TestNG.dataProvider (1)" />
+        <item itemvalue="TestNG.dataProvider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfc57847-890d-4d91-8548-7191931ea0c8" name="Changes" comment="" />
+      <created>1669476176963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669476176963</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1st TestNG commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st TestNG commit" />
+  </component>
+</project>

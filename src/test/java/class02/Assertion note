@@ -1,0 +1,87 @@
+----Hard Assertions
+The hard Assertions if an assertion failed, it will immediately stop execution of the code and
+label the test case as "FAILED"
+
+---------Soft Assertions
+the soft assertion is going to execute all the assertions, regardless if any of them is failing approach:
+1.  SoftAssert soft = new SftAssert();      declare it
+2.  soft.Assert
+
+*import to strix
+1. set up matching maven project.
+2. delete main.
+    copy project.
+
+3. setting - plugin - 'create testNG' install
+
+---------Revision-------------------------------------------
+
+1.  @Test           ->  we write all the test cases under this annotation
+2.  @Before method  ->  Precondition (runs before every @Test)
+3.  @Aftermethod    ->  PSost condition
+
+4.  Enabled     =   false (will not run)
+5.  Priority    =>  by default (0), it follows in order 0,1,2,3,4
+6.  DependsOnMethods (will only execute the method if the method on which itis depending will Pass)
+
+----------Assertions---------------------------
+tell us if test case passed or failed
+
+----------Hard Assertion----------
+Assert.Assertequals(string 1, string 2) ->  will pass when string1  =   string2
+Assert.AssertTrue(boolean)  ->  will pass when boolean is TRUE
+Assert.Assertfalse(boolean) ->  will    pass when boolean is False
+
+Note:
+    If in a single test case hard assertion fails   ->  it will terminate the execution of that particular
+    test case and will not be testing other assertions or even executing the rest of code inside
+    the same TEST CASE.
+
+
+-------Soft assertions-----------------
+
+Approach:
+    1.  Create an instance SoftAssert soft = new SoftAssert()
+    2.  call the assert equals or assert true or assert false from the SoftAssert
+                  soft.assertTrue()
+     			soft.assertEquals()
+
+    3.Soft.assertAll()--> assert everything
+
+    Note:
+    if in a single test case your assertion fails, even then the rest of assertions will be executed.
+
+-----------------TestNG XML---------------
+
+Gives us control to execute our classes/test cases in specified manner
+How to create testNg XML???
+    goto plugins
+    install the plugin createTestNG XML
+
+    RIght click on any class
+    click on create Testng.XML
+    Reaload from disk
+
+    goto code
+    reformat the code
+
+
+    ---------Execution-----
+    1.Class Base execution --->  we can give the name of class under  <classes>
+    2.MethodWise execution  --> we can include or exclude the methods we want to run from a specific class
+    3.Package wise Execution--> <packages>
+    4.Dual test             --> in a single <suite> we can have two <test>  in each we can define the packages or classes 								that we want to run    ---> more organized
+
+    5.Group Wise execution
+    <suite name="mysuite1">
+      <test name ="1stTest">
+              <groups>
+    				<run>
+    					<include="regression">
+    				</run>
+    		</groups>
+    			<packages>
+     				<package name= "class01"/>
+    			</packages>
+      		</test>
+    </suite>
